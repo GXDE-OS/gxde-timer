@@ -23,9 +23,9 @@ int main(int argc, char *argv[])
     a.setApplicationVersion(DApplication::buildVersion("1.0"));
     a.setApplicationAcknowledgementPage("https://gitee.com/gfdgd-xi/timer");
     a.setProductIcon(QIcon::fromTheme("deepin-launcher"));  //设置Logo
-    a.setProductName("定时器");
-    a.setApplicationName("定时器"); //只有在这儿修改窗口标题才有效
-    a.setApplicationDescription(QObject::tr("一个可以定时提醒的程序"));
+    a.setProductName("倒计时");
+    a.setApplicationName("倒计时"); //只有在这儿修改窗口标题才有效
+    a.setApplicationDescription(QObject::tr("一个可以倒计时提醒的程序"));
     MainWindow w;
     DApplicationSettings settings;
     w.show();
