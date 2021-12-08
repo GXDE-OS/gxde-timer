@@ -7,8 +7,12 @@
 #include <DDesktopServices>
 #include <ddesktopservices.h>
 #include <iostream>
+
+DWIDGET_USE_NAMESPACE
+
 using namespace std;
 #define TIMER_TIMEOUT (1*1000)
+
 Widget::Widget(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::Widget)
