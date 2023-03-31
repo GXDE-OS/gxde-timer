@@ -1,7 +1,7 @@
 #include "widget.h"
 #include "ui_widget.h"
 #include <QTimerEvent>
-#include <DMessageBox>
+#include <QMessageBox>
 #include <DMessageManager>
 #include <dmessagemanager.h>
 #include <DDesktopServices>
@@ -79,7 +79,7 @@ void Widget::handleTimeout()
     stop = false;
     // 显示提示
     system("notify-send -i deepin-launcher '定时器' '时间到！'");
-    DMessageBox::information(this, tr("提示"), tr("时间到！"));
+    QMessageBox::information(this, tr("提示"), tr("时间到！"));
  }
 
 /**************
