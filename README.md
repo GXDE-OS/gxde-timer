@@ -1,12 +1,16 @@
 # 定时器
 
-#### 介绍
+## 介绍
 
-这是第一个用 C++/QT/DTK 写的小应用  
-已上架到deepin/UOS 应用商店、星火应用商店
+这是用 dtk 制作的倒计时工具  
+已上架到 deepin/UOS 应用商店、星火应用商店  
 
-#### 软件架构
-i386 和 amd64
+### deepin/UOS 应用商店
 
+![图片.png](https://storage.deepin.org/thread/202304212246238139_图片.png)
 
+## 星火应用商店
 
+![图片.png](https://storage.deepin.org/thread/202304212246563375_图片.png)  
+
+# ©2021~Now gfdgd xi
