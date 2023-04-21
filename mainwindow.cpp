@@ -8,9 +8,6 @@ MainWindow::MainWindow(QWidget *parent)
 {
     w = new Widget;
     resize(w->size()); //设置窗口大小
-    // 设置窗口
-    this->setWindowFlags(windowFlags() &~ Qt::WindowMaximizeButtonHint);
-    this->setFixedSize(this->width(),this->height());
     setCentralWidget(w);
 }
 
