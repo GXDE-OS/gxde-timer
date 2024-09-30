@@ -79,7 +79,7 @@ void Widget::handleTimeout()
     // “暂停”变量设定为否
     stop = false;
     // 显示提示
-    system("notify-send -i deepin-launcher '定时器' '时间到！'");
+    system("notify-send -i gxde-timer '定时器' '时间到！'");
     QMessageBox::information(this, tr("提示"), tr("时间到！"));
  }
 

@@ -1,8 +1,0 @@
-Package: spark.gitee.timer
-Version: @@version@@
-Architecture: @@arch@@
-Maintainer: gfdgd xi<3025613752@qq.com>
-Depends: libdtkcore5, libdtkwidget5, libdtkgui5
-Section: utils
-Priority: optional
-Description: 一个基于 dtk 制作的一个倒计时软件

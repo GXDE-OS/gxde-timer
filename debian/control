@@ -1,0 +1,22 @@
+Source: gxde-timer
+Section: utils
+Priority: optional
+Maintainer: gfdgd_xi <3025613752@qq.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+ libdtkwidget2-dev | libdtkwidget-dev,
+ libdtkcore-dev,
+ qtchooser
+Standards-Version: 4.6.2
+Homepage: https://gitee.com/GXDE-OS/gxde-timer
+
+Package: gxde-timer
+Architecture: any
+Provides: spark.gitee.timer
+Replaces: spark.gitee.timer
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: 一个基于 dtk 制作的一个倒计时软件
+

@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = Timer
+TARGET = gxde-timer
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -38,3 +38,27 @@ FORMS += \
     widget.ui
 
 RESOURCES +=
+
+isEmpty(PREFIX){
+    PREFIX = /usr
+}
+
+BINDIR = $$PREFIX/bin
+APPSHAREDIR = $$PREFIX/share/
+
+target.path = $$BINDIR
+
+desktopOpt.path = /opt/apps/gxde-timer/entries/applications/
+desktopOpt.files = $$PWD/gxde-timer.desktop
+
+desktop.path = $$PREFIX/share/applications/
+desktop.files = $$PWD/gxde-timer.desktop
+
+# 支持在 GXDE 助手内显示
+desktopAssistant.path = $$APPSHAREDIR/gxde/gxde-system-assistant/tool-extensions
+desktopAssistant.files = $$PWD/gxde-timer.desktop
+
+icons.path = $$APPSHAREDIR/icons
+icons.files = $$PWD/gxde-timer.svg
+
+INSTALLS = target desktop icons desktopOpt desktopAssistant
