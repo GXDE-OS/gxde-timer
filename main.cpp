@@ -7,7 +7,7 @@
 #include "mainwindow.h"
 #include <DApplication>
 #include <DWidgetUtil>
-#include <DApplicationSettings>
+//#include <DApplicationSettings>
 #include <DSpinner>
 #include <DAboutDialog>
 DWIDGET_USE_NAMESPACE
@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
     DApplication a(argc, argv);
     a.setAttribute(Qt::AA_UseHighDpiPixmaps);
     a.loadTranslator();
-    a.setOrganizationName("deepin");
+    a.setOrganizationName("GXDE");
     a.setApplicationVersion(DApplication::buildVersion(PROGRAM_VERSION));
     a.setApplicationHomePage("https://gitee.com/gfdgd-xi/timer");
     a.setApplicationAcknowledgementPage("https://gitee.com/gfdgd-xi/timer");
@@ -39,10 +39,10 @@ int main(int argc, char *argv[])
     dialog->setProductName("dtk 倒计时");
     dialog->setWebsiteLink("https://gitee.com/gfdgd-xi/timer");
     dialog->setWebsiteName("https://gitee.com/gfdgd-xi/timer");
-    dialog->setIcon(QIcon::fromTheme("deepin-launcher"));
+    //dialog->setIcon(QIcon::fromTheme("deepin-launcher"));
     dialog->setProductIcon(QIcon::fromTheme("deepin-launcher"));
     a.setAboutDialog(dialog);
-    DApplicationSettings settings;
+    //DApplicationSettings settings;
     w.show();
     //让打开时界面显示在正中
     Dtk::Widget::moveToCenter(&w);

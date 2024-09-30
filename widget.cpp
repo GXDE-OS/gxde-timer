@@ -2,8 +2,9 @@
 #include "ui_widget.h"
 #include <QTimerEvent>
 #include <QMessageBox>
-#include <DMessageManager>
-#include <dmessagemanager.h>
+//#include <DMessageManager>
+//#include <dmessagemanager.h>
+#include <QMessageBox>
 #include <DDesktopServices>
 #include <ddesktopservices.h>
 #include <iostream>
