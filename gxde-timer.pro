@@ -59,6 +59,6 @@ desktopAssistant.path = $$APPSHAREDIR/gxde/gxde-system-assistant/tool-extensions
 desktopAssistant.files = $$PWD/gxde-timer.desktop
 
 icons.path = $$APPSHAREDIR/icons
-icons.files = $$PWD/gxde-timer.svg
+icons.files = $$PWD/gxde-timer.png
 
-INSTALLS = target desktop icons desktopOpt desktopAssistant
+INSTALLS = target icons desktopAssistant #desktopOpt desktop 

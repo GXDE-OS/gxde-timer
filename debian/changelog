@@ -1,5 +1,5 @@
-gxde-timer (1.2.0) UNRELEASED; urgency=medium
+gxde-timer (1.2.1) UNRELEASED; urgency=medium
 
-  * Initial release. (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * 更新程序图标
 
- -- gfdgd_xi <3025613752@qq.com>  Mon, 30 Sep 2024 22:22:58 +0800
+ -- gfdgd_xi <3025613752@qq.com>  Tue, 01 Oct 2024 18:49:42 +0800
