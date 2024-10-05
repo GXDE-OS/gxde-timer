@@ -2,7 +2,8 @@
 Categories=System
 Exec=gxde-timer
 Icon=gxde-timer
-Name=GXDE 倒计时
+Name=GXDE timer
+Name[zh_CN]=极星定时器
 StartupNotify=true
 Terminal=false
 Type=Application
